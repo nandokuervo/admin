@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'gothic';
+	src: url('../fonts/gothic.woff') format('woff');
+	font-family: 'Questrial';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/questrial-v9-latin-regular.woff') format('woff')
+}
+
+body{
+	font-family: 'Questrial', sans-serif;
+}
+
+thead{
+	background-color: #0C577E;
+	color: white;
+}
+
+table{
+	font-family: 'Questrial';
+}
+
+thead{
+	background-color: #135F86;
+	color: white;
+	font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: 'Questrial', sans-serif;
+}
+
+.mt-2{
+	font-family: 'Questrial';
+}
+
+.divider {
+	border-top: 3px solid #e9ecef;
+}
+
+.input-group .input-group-addon {
+	border-radius: 0;
+	border-color: #d2d6de;
+	background-color: #fff;
+}
+
+.control-label {
+	padding-top: 7px;
+	padding-right: 5px;
+	margin-bottom: 0;
+	text-align: right;
+}
+
+.modal-primary .modal-header,
+.modal-primary .modal-footer {
+	border-color: #307095;
+}
+
+.modal-primary .modal-body,
+.modal-primary .modal-header,
+.modal-primary .modal-footer{
+	color: #fff !important;
+}
+
+.bg-light-blue,
+.label-primary,
+.modal-primary .modal-body {
+	background-color: #3c8dbc !important;
+}
+
+.bg-light-blue-active,
+.modal-primary .modal-header,
+.modal-primary .modal-footer {
+	background-color: #274066 !important;
+}
+
+.modal-footer{
+	height: 50px;
+	padding-top: 40px;
+}
+
+.modal-content{
+	background-color: #274066;
+}
